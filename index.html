@@ -6,7 +6,7 @@
 <title>AI Vendor Digest — Archive</title>
 </head>
 <body style="margin:0;padding:0;background:#f4f5f7;">
-<div style="max-width:640px;margin:0 auto;padding:24px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.5;">
+<div id="digest-content" style="max-width:640px;margin:0 auto;padding:24px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.5;">
   <h1 style="font-size:20px;margin:0 0 4px;">AI Vendor Digest</h1>
   <div style="color:#666;font-size:13px;margin:0 0 20px;">A twice-weekly digest of significant, primary-sourced AI vendor news (Sundays &amp; Wednesdays).</div>
 
@@ -29,5 +29,6 @@
 
   <div style="color:#999;font-size:11px;margin-top:24px;border-top:1px solid #e1e4e8;padding-top:12px;">Published automatically by the ScheduledTasks AI Vendor Digest routine.</div>
 </div>
+<div style="position:fixed;bottom:16px;right:16px;display:flex;gap:6px;z-index:9999;"><button onclick="adjustZoom(-1)" title="Decrease font size" style="width:34px;height:34px;font-size:20px;font-weight:700;background:#0a66c2;color:#fff;border:none;border-radius:6px;cursor:pointer;line-height:1;">−</button><button onclick="adjustZoom(1)" title="Increase font size" style="width:34px;height:34px;font-size:20px;font-weight:700;background:#0a66c2;color:#fff;border:none;border-radius:6px;cursor:pointer;line-height:1;">+</button></div><script>(function(){var z=parseFloat(localStorage.getItem('dz')||'1');var el=document.getElementById('digest-content');el.style.zoom=z;window.adjustZoom=function(d){z=Math.min(Math.max(+(z+d*0.05).toFixed(4),0.5),2.0);el.style.zoom=z;localStorage.setItem('dz',z);};}());</script>
 </body>
 </html>
